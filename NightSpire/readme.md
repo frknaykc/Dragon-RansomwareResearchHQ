@@ -52,6 +52,18 @@
 
 ---
 
+# 📝 RANSOM NOTE (readme.txt)
+
+- A file named `readme.txt` is dropped **in every directory containing encrypted files**.
+- Key highlights from the note:
+  - Victim is warned their hotel network is hacked.
+  - OneDrive files are also encrypted **without changing extensions**.
+  - Decryption is only possible via the attacker's key; third-party tools are discouraged.
+  - Communication methods are listed including email, qTox ID, and TOR links.
+  - Victim UUID is embedded in the message for reference.
+
+---
+
 # 📞 NIGHTSPIRE CONTACT
 
 - **Email:** `nightspireteam.receiver@onionmail.org`  
@@ -65,9 +77,8 @@
 
 # 🌐 TOR DOMAINS
 
-- `a2lyiiaq4n74tlgz4fk3ft4akolapfrzk772dk24iq32cznjsmzpanqd.onion`  
-- `nspiremkiq44zcxjbgvab4mdedyh2pzj5kzbmvftcugq3mczx3dqogid.onion`
+- `http://nspiremkiq44zcxjbgvab4mdedyh2pzj5kzbmvftcuqg3mczx3dqogid.onion`  
+- `http://a2lyiiaq4n74tlgz4fk3ft4akolapfrzk772dk24iq32cznjsmzpanqd.onion`
 
 ---
 
-> _Note: This information is based on threat intelligence as of July 2025 and may evolve with further updates._
