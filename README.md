@@ -1,50 +1,62 @@
 
 
 
-# Dragon-RansomwareHQ
+# Dragon-RansomwareResearchHQ
 
-Welcome to the Dragon-RansomwareHQ repository. This repository provides detailed information about various ransomware families, including their behaviors, Indicators of Compromise (IOCs), and ransom notes. Each ransomware family is documented in its own dedicated directory for ease of access and organization.
+Welcome to the Dragon-RansomwareHQ repository. This repository serves as a comprehensive resource for security researchers, providing detailed analysis and documentation of various ransomware families. Our goal is to help the cybersecurity community better understand, detect, and defend against these threats.
 
-## Usage
+## Repository Structure
 
-Each directory contains the following:
+Each ransomware family has its own dedicated directory containing the following standard components:
 
-- **Overview**: A general description of the ransomware, its targets, and its operation timeline.
-- **IOCs**: Indicators of Compromise specific to the ransomware family.
-- **Notes**: Examples of ransom notes and other related documents.
-- **MITRE ATT&CK Tactics and Techniques**: Detailed listing of the tactics and techniques used by the ransomware according to the MITRE ATT&CK framework.
-- **Spread Mechanisms**: Information on how the ransomware spreads.
-- **Encryption Details**: Specifics about the file encryption process and any unique behaviors.
-- **Screenshots**: Visual representations of the ransomware's activity, ransom notes, or encryption process.
+### Directory Components
 
-## Contribution
+- `IOCs/` - Indicators of Compromise
+  - CSV files containing hashes, IP addresses, domains, and other technical indicators
+  - Timeline of observed activities
+  - Detection rules and signatures
 
-We welcome contributions to enhance and expand the information provided in this repository. Please feel free to submit pull requests or open issues with any new findings or corrections.
+- `Notes/` - Ransomware Communication Materials
+  - Ransom notes and instructions
+  - Victim communication examples
+  - Decryption instructions when available
+
+- `Images/` - Visual Documentation
+  - Infection process screenshots
+  - Encrypted file examples
+  - Ransom note displays
+  - Command & Control panels (when available)
+
+- `README.md` - Detailed Documentation
+  - Technical Analysis
+  - Behavioral Patterns
+  - Attack Timeline
+  - Target Demographics
+  - Prevention Recommendations
+
+## Contributing
+
+We welcome contributions from the security research community. To contribute:
+
+1. Fork the repository
+2. Create a new branch for your changes
+3. Submit a pull request with detailed description of your additions/modifications
+4. Include references and sources for your research
+
+Please ensure all contributed information is:
+- Accurate and verified
+- Properly formatted and organized
+- Free of sensitive or personally identifiable information
+- Compliant with responsible disclosure practices
 
 ## License
 
-Waiting
+This project is pending license selection. All rights reserved until further notice.
+
+## Disclaimer
+
+This repository is for research and educational purposes only. The information provided should be used responsibly and in accordance with applicable laws and regulations.
 
 ---
 
-### Example Directory Structure:
-
-```
-Dragon-RansomwareHQ/
-│
-├── CactusRansomware/
-│   ├── IOCs/
-│   ├── Notes/
-│   └── README.md
-│
-├── INCRansomware/
-│   ├── IOCs/
-│   ├── Notes/
-│   └── README.md
-│
-├── RhysidaRansomware/
-│   ├── IOCs/
-│   ├── Notes/
-│   └── README.md
-│
-└── README.md
+For questions or collaboration opportunities, please open an issue in the repository.
